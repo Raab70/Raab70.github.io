@@ -68,7 +68,7 @@ if __name__ == '__main__':
 
 This code will start our application at `localhost:5000`. We turn on the debug option for some explicit logging. You can test it with `curl -H 'Content-Type:application/json' -d '{"data": "Ferrari is the best sports car"}' localhost:5000` You'll see a response with the predicted category! You'll note the model is not terrible accurate but more time could be spent in optimizing our model but this example is illustrative of how to deploy a model.
 
-All code is available in this github [repository](http://github.com/raab70/raab70.github.io/_posts/code/2017-10-17-deploying-machine-learning-models). There you'll find a script named `create_model.py` to generate the pickle of the trained example and `api.py` which implements the above API in Flask. To use these, run `python create_model.py` first, when that completes run `python api.py`. In a new terminal, try the curl command above. Your output should look like so:
+All code is available in this github [repository](https://github.com/Raab70/Raab70.github.io/tree/master/_posts/code/2017-10-17-deploying-machine-learning-models). There you'll find a script named `create_model.py` to generate the pickle of the trained example and `api.py` which implements the above API in Flask. To use these, run `python create_model.py` first, when that completes run `python api.py`. In a new terminal, try the curl command above. Your output should look like so:
 {% highlight bash %}
 $ curl -H 'Content-Type:application/json' -d '{"data": "Ferrari is the best sports car"}' localhost:5000
 {
