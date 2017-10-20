@@ -1,5 +1,4 @@
----
----
+--- ---
 
 <!doctype html>
 <!--
@@ -8,27 +7,36 @@
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
 -->
-<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<html lang="{{ site.locale | slice: 0,2 | default: " en " }}" class="no-js">
 
-  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108420408-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
 
-    {{ content }}
+    gtag('config', 'UA-108420408-1');
+  </script>
+  {% include head.html %} {% include head/custom.html %}
+</head>
 
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
+<body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
-    {% include scripts.html %}
+  {% include browser-upgrade.html %} {% include masthead.html %} {{ content }}
 
-  </body>
+  <div class="page__footer">
+    <footer>
+      {% include footer/custom.html %} {% include footer.html %}
+    </footer>
+  </div>
+
+  {% include scripts.html %}
+
+</body>
+
 </html>
