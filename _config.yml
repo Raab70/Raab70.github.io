@@ -77,9 +77,13 @@ social:
 
 # Analytics
 analytics:
+<<<<<<< Updated upstream
   provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : "UA-108420408-1"
+=======
+  provider               : "custom" # false (default), "google", "google-universal", "custom"
+>>>>>>> Stashed changes
 
 
 # Site Author
