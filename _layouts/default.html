@@ -1,4 +1,5 @@
---- ---
+---
+---
 
 <!doctype html>
 <!--
@@ -7,36 +8,36 @@
   Free for personal and commercial use under the MIT license
   https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
 -->
-<html lang="{{ site.locale | slice: 0,2 | default: " en " }}" class="no-js">
+<html lang="{{ site.locale | slice: 0,2 | default: "en" }}" class="no-js">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108420408-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108420408-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+      gtag('config', 'UA-108420408-1');
+    </script>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+  <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
 
-    gtag('config', 'UA-108420408-1');
-  </script>
-  {% include head.html %} {% include head/custom.html %}
-</head>
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-<body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}">
+    {{ content }}
 
-  {% include browser-upgrade.html %} {% include masthead.html %} {{ content }}
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      </footer>
+    </div>
 
-  <div class="page__footer">
-    <footer>
-      {% include footer/custom.html %} {% include footer.html %}
-    </footer>
-  </div>
+    {% include scripts.html %}
 
-  {% include scripts.html %}
-
-</body>
-
+  </body>
 </html>
