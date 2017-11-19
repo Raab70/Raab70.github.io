@@ -62,7 +62,7 @@ naver-site-verification  :
 
 # Social Sharing
 twitter:
-  username               : UnsupervisedPandas
+  username               : RobHarrigan89
 facebook:
   username               :
   app_id                 :
@@ -79,7 +79,7 @@ social:
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id: "UA-108420408-1"
+    tracking_id: "UA-43515000-2"
 
 # Site Author
 author:
