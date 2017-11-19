@@ -30,8 +30,8 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
- staticman:
-   branch                 : "master"
+staticman:
+  branch                 : "master"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
