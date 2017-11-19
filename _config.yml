@@ -30,26 +30,8 @@ comments:
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
-# staticman:
-#   branch                 : "master"
-#   allowedFields          : # ['name', 'email', 'url', 'message']
-#   branch                 : # "master"
-#   commitMessage          : # "New comment."
-#   filename               : # comment-{@timestamp}
-#   format                 : # "yml"
-#   moderation             : # true
-#   path                   : # "/_data/comments/{options.slug}" (default)
-#   requiredFields         : # ['name', 'email', 'message']
-#   transforms:
-#     email                : # "md5"
-#   generatedFields:
-#     date:
-#       type               : # "date"
-#       options:
-#         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-# reCaptcha:
-#   siteKey                :
-#   secret                 :
+ staticman:
+   branch                 : "master"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
