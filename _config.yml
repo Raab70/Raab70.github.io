@@ -78,7 +78,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : Raab70
   gitlab           :
   google_plus      :
   keybase          :
@@ -170,6 +170,7 @@ timezone: America/Chicago # https://en.wikipedia.org/wiki/List_of_tz_database_ti
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-archive
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -180,6 +181,7 @@ plugins:
 
 # mimic GitHub Pages with --safe
 whitelist:
+  - jekyll-archive
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -199,22 +201,22 @@ github: [metadata]
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
+  type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -239,3 +241,10 @@ defaults:
       share: true
       related: true
       mathjax: false
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
