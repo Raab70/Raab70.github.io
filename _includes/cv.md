@@ -1,11 +1,27 @@
- I am a passionate data scientist who believes in data-driven decision making and empowering executives with actionable facts. I focus on bridging the gap between data science and data engineering, utilizing modern design patterns for cloud-based and containerized workflows to maximize data science impact. I currently work for CBS Interactive and 247Sports.com <br>
+ I am a passionate data scientist who believes in data-driven decision making and empowering executives with actionable facts. I focus on bridging the gap between data science and data engineering, utilizing modern design patterns for cloud-based and containerized workflows to maximize data science impact. I currently work for CBS Interactive in the Applied Machine Learning Group <br>
 
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 <tr>
+  <td class='col-md-3'>Aug 2018</td>
+  <td>I will be presenting "Serverless Streaming Web Analytics with AWS Kinesis and Lambda" at the Nashville Analytics Summit. </td>
+</tr>
+<tr>
+  <td class='col-md-3'>Mar 2018</td>
+  <td>I presented "Building a Serverless Recommendation Engine" at the <a href=https://www.meetup.com/Brentwood-Artificial-Intelligence-Meetup/events/245466094/>Brentwood Artificial Intelligence meetup</a> discussing how to use AWS Lambda and PySpark on AWS ElasticMapReduce using collaborative filtering to generate personalized recommendations for millions of users for just a few dollars.</td>
+</tr>
+<tr>
+  <td class='col-md-3'>Feb 2018</td>
+  <td>I attended PyTennessee 2018 in Nashville, Tennessee</td>
+</tr>
+<tr>
   <td class='col-md-3'>Nov 2017</td>
   <td>I attended AWS re:Invent 2017 in Las Vegas, Nevada</td>
+</tr>
+<tr>
+  <td class='col-md-3'>Jul 2017</td>
+  <td>I presented my work integrating our custom analytics with Splunk into our chatbot for on-demand analytics queries by our publishers at the Splunk Nashville Users Group.</td>
 </tr>
 <tr>
   <td class='col-md-3'>Apr 2017</td>
@@ -25,7 +41,20 @@
 ## <i class="fa fa-chevron-right"></i> Work Experience
 <table class="table table-hover">
 <tr>
-  <td class='col-md-3'>Apr 2017 - Present</td>
+  <td class='col-md-3'>Jul 2018 - Present</td>
+  <td><strong>CBS Interactive - Applied ML Group</strong>, Senior Machine Learning Engineer</td>
+</tr>
+<tr>
+<td colspan="100%">
+<ul>
+<li markdown="1">
+Recommendation algorithm development and deployment to Kubernetes and GCP
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+  <td class='col-md-3'>Apr 2017 - Jul 2018</td>
   <td><strong>CBS Interactive - 247Sports.com</strong>, Data Engineer</td>
 </tr>
 <tr>
@@ -41,19 +70,13 @@ Seamlessly moved analytics from custom PHP+MySQL application to AWS Kinesis stre
 Created machine learning spam detection algorithm using Naive Bayes TF-IDF classifier, deployed to production
 </li>
 <li markdown="1">
-Wrote chatbot to interface with analytics giving publishers real-time query insights into their page metrics
-</li>
-<li markdown="1">
-Extended chatbot to work with goal based bonus incentive structure, allowing publishers to track goal progress in real-time
-</li>
-<li markdown="1">
 Created a serverless sessionization pipeline using AWS Lambda and AWS Elasticache (redis) to meet business needs of reporting session-level traffic metrics
 </li>
 <li markdown="1">
-Field business reporting requests in a timely manner
+Wrote chatbot to interface with analytics giving publishers real-time query insights into their performance metrics
 </li>
 <li markdown="1">
-Interface with central Applied Machine Learning Group within broader CBSi working on recommendation algorithms and deployment to Kubernetes and GCP
+Created custom serverless ETL pipeline of production data into BigQuery Data Warehouse for analysis.
 </li>
 </ul>
 </td>
@@ -70,22 +93,6 @@ Development of novel fully automated optic nerve segmentation, measurement algor
 </li>
 <li markdown="1">
 Deployment of algorithm using open source Python cluster manager (DAX) to process >11,000 clinical and research image volumes across self-maintained compute grid and university supercomputing resources
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-  <td class='col-md-3'>Jun 2010 - Aug 2010 and Jun 2012 - Aug 2012</td>
-  <td><strong>Integrity Applications Inc.</strong>, Imaging Science Intern</td>
-</tr>
-<tr>
-<td colspan="100%">
-<ul>
-<li markdown="1">
-Multi-scale target detection algorithm design utilizing low spatial resolution (30m-250m) multispectral and high spatial resolution imagery (15m) to improve detection results using IDL/ENVI and Perl
-</li>
-<li markdown="1">
-Cloud detection and mosaicking for application of algorithms for generation of large-scale deliverable maps
 </li>
 </ul>
 </td>
@@ -109,7 +116,7 @@ Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HT
 Uses AWS Route53 for custom DNS resolution as well as Cloudflare CDN
 </li>
 <li markdown="1">
-Includes posts on data science and data engineering topics including serverless, AWS Lambda, and Docker.
+Includes posts on data science and data engineering top tags include scikit-learn, AWS, Python, Apex, Docker, Lambda, Pandas and Data Engineering.
 </li>
 </ul>
 </td>
@@ -157,19 +164,19 @@ Instructed students on working with big data in the cloud using PySpark on AWS E
 <tr>
   <td class='col-md-2'>Languages</td>
   <td markdown="1">
-Python, Bash, terraform, chef, Ruby, SQL
+Python, Bash, terraform, SQL
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>Frameworks</td>
   <td markdown="1">
-NumPy, Pandas, matplotlib, seaborn, scikit-learn, SciPy, TensorFlow
+Flask, NumPy, Pandas, PySpark, matplotlib, scikit-learn, TensorFlow
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>Technologies</td>
   <td markdown="1">
-Kubernetes, Docker, AWS, Google Cloud
+Kubernetes, Containerization, AWS, Google Cloud, microservice architecture
   </td>
 </tr>
 </table>
@@ -205,7 +212,7 @@ Kubernetes, Docker, AWS, Google Cloud
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> Selected Publications <a href="https://github.com/Raab70/cv/blob/master/publications/selected.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+## <i class="fa fa-chevron-right"></i> Selected Publications <a href="https://github.com/Raab70/resume/blob/master/publications/selected.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
 <a href="https://scholar.google.com/citations?user=bqtkH04AAAAJ" class="btn btn-primary" style="padding: 0.3em;">
   <i class="ai ai-google-scholar"></i> Google Scholar
@@ -329,14 +336,14 @@ Kubernetes, Docker, AWS, Google Cloud
 </table>
 
 
-## <i class="fa fa-chevron-right"></i> All Publications <a href="https://github.com/Raab70/cv/blob/master/publications/"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+## <i class="fa fa-chevron-right"></i> All Publications <a href="https://github.com/Raab70/resume/blob/master/publications/"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
 <a href="https://scholar.google.com/citations?user=bqtkH04AAAAJ" class="btn btn-primary" style="padding: 0.3em;">
   <i class="ai ai-google-scholar"></i> Google Scholar
 </a>
 
 
-### Journal Articles <a href="https://github.com/Raab70/cv/blob/master/publications/journal.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+### Journal Articles <a href="https://github.com/Raab70/resume/blob/master/publications/journal.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
 <table class="table table-hover">
 
@@ -426,7 +433,7 @@ Kubernetes, Docker, AWS, Google Cloud
 
 </table>
 
-### Conference Proceedings <a href="https://github.com/Raab70/cv/blob/master/publications/conference.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+### Conference Proceedings <a href="https://github.com/Raab70/resume/blob/master/publications/conference.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
 <table class="table table-hover">
 
@@ -528,7 +535,7 @@ Kubernetes, Docker, AWS, Google Cloud
 
 </table>
 
-### Posters <a href="https://github.com/Raab70/cv/blob/master/publications/posters.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
+### Posters <a href="https://github.com/Raab70/resume/blob/master/publications/posters.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
 
 <table class="table table-hover">
 

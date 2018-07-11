@@ -7,6 +7,7 @@ tags:
   - scikit-learn
   - Supervised Classification
   - Pandas
+crosspost_to_medium: true
 ---
 
 This is the initial installment of my new series as a guide to supervised classification. If you've got a labeled training set with multiple classes we're going to figure out how to predict those classes. For these tutorials we will be using scikit-learn and so we will be loosely following their algorithm cheat-sheet, of course focusing on the classification quadrant. The difference is that this won't just be a link to documentation, I'll briefly introduce the mathematical basis of each classifier and focus on the practical usage of each algorithm. Along the way we'll also learn some preprocessing, data cleaning, data imputation, and things to look for when training a classifier. For this post I want to briefly introduce some preprocessing steps that will come in handy which I'll reference in later posts.

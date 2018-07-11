@@ -8,6 +8,7 @@ tags:
   - Docker
   - Workflow
 mathjax: false
+crosspost_to_medium: true
 ---
 
 Containerization is a trend that is taking the tech world by storm, but how can you, a data scientist, use it to improve your workflow? Let's start with some basics of containerization and specifically Docker and then we'll look at a couple of use cases for containerized docker science. Bear with me through the Introduction section as it has some important points which are helpful to understand when we get to building and deploying containers.

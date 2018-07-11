@@ -6,6 +6,7 @@ categories:
 tags:
   - scikit-learn
   - cross-validation
+crosspost_to_medium: true
 ---
 
 Cross-validation is a topic which is oft overlooked by young data scientists as being trivial and not requiring any deep mathematical understanding. I see practitioners who know that they need to do cross-validation and maybe they do one layer of it but they don't understand why they're doing it and therefore don't understand when to use it. Spoiler alert: It's probably more than you're doing it and you're probably using the wrong tool.

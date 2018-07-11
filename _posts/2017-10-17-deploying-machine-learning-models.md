@@ -7,6 +7,7 @@ tags:
   - Flask
   - scikit-learn
   - Data Engineering
+crosspost_to_medium: true
 ---
 
 I often find myself needing to deploy machine learning models for use with other services or languages. Flask is a great minimal web framework for deploying a simple API and since it's written in Python you can easily create an API to apply any of your current python machine learning models. In this example we'll take a simple text classification problem from [sklearn](http://scikit-learn.org/stable/datasets/twenty_newsgroups.html) and create a minimal API to apply our model to any input text.

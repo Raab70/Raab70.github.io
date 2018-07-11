@@ -9,6 +9,7 @@ tags:
   - AWS
   - Python
   - Jupyter
+crosspost_to_medium: true
 ---
 
 I have worked on teams which primarily utilize local servers, remote servers, GCP as well as AWS. Working on all these platforms I've learned a few tricks that can boost your productivity. Here I'll outline four of my most useful tricks for mastering the mythical networking and working in the cloud.

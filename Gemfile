@@ -10,4 +10,5 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jemoji"
   gem 'jekyll_github_sample', '~> 0.3.0'
+  gem 'jekyll-crosspost-to-medium'
 end

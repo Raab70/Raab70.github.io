@@ -9,6 +9,7 @@ tags:
   - Apex
   - Lambda
   - AWS
+crosspost_to_medium: true
 ---
 
 ## Introduction

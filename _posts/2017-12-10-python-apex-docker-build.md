@@ -8,6 +8,7 @@ tags:
   - Apex
   - Lambda
   - Docker
+crosspost_to_medium: true
 ---
 
 [Apex](https://Apex.run) is a great tool for managing your serverless architecture. When I decided I wanted to move my lambdas over, which are almost exclusively python based, my first question was how to handle dependencies. Previously I had written a script which pretty much followed the [AWS documentation](http://docs.aws.amazon.com/lambda/latest/dg/lambda-python-how-to-create-deployment-package.html) for creating deployment packages in a virtual environment. This was a simple enough scenario but it still didn't allow me to build any lambdas which require system level dependencies (i.e., cryptography and pycryptodome) without building the code on EC2. This was cumbersome and I vowed to solve this issue with Apex.

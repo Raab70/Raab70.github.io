@@ -179,6 +179,7 @@ plugins:
   - jekyll_github_sample
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-crosspost-to-medium
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -190,6 +191,13 @@ whitelist:
   - jemoji
 
 github: [metadata]
+
+jekyll-crosspost_to_medium:
+  enabled: true
+  cache: .jekyll-crosspost_to_medium
+  status: draft
+  license: all-rights-reserved
+  backdate: true
 
 # Archives
 #  Type

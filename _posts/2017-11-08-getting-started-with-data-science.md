@@ -11,6 +11,7 @@ tags:
   - jupyter
   - iPython
   - numpy
+crosspost_to_medium: true
 ---
 
 This is a reference post for steps to set up an environment.
