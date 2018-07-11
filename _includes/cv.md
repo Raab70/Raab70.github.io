@@ -9,7 +9,7 @@
 </tr>
 <tr>
   <td class='col-md-3'>Mar 2018</td>
-  <td>I presented "Building a Serverless Recommendation Engine" at the <a href=https://www.meetup.com/Brentwood-Artificial-Intelligence-Meetup/events/245466094/>Brentwood Artificial Intelligence meetup</a> discussing how to use AWS Lambda and PySpark on AWS ElasticMapReduce using collaborative filtering to generate personalized recommendations for millions of users for just a few dollars.</td>
+  <td>I presented "Building a Serverless Recommendation Engine" at the <a href='https://www.meetup.com/Brentwood-Artificial-Intelligence-Meetup/events/245466094/'>Brentwood Artificial Intelligence meetup</a> discussing how to use AWS Lambda and PySpark on AWS ElasticMapReduce using collaborative filtering to generate personalized recommendations for millions of users for just a few dollars.</td>
 </tr>
 <tr>
   <td class='col-md-3'>Feb 2018</td>
