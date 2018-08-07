@@ -1,6 +1,6 @@
 // Configure Credentials to use Cognito
 AWS.config.credentials = new AWS.CognitoIdentityCredentials({
-    IdentityPoolId: 'us-east-1:c6c09fed-8087-4448-977b-74569b3847ec'
+    IdentityPoolId: 'us-east-1:e1a38497-e828-4814-9826-de938fe53ce5'
 });
 
 AWS.config.region = 'us-east-1';
@@ -18,26 +18,24 @@ AWS.config.credentials.get(function(err) {
         apiVersion: '2013-12-02'
     });
 
-    var blogContent = document.getElementById('BlogContent');
+    // var blogContent = document.getElementById('BlogContent');
 
     // Get Scrollable height
-    var scrollableHeight = blogContent.clientHeight;
+    var scrollableHeight = document.body.scrollHeight;
 
     var recordData = [];
     var TID = null;
-    blogContent.addEventListener('scroll', function(event) {
+    document.addEventListener('scroll', function(event) {
         clearTimeout(TID);
         // Prevent creating a record while a user is actively scrolling
         TID = setTimeout(function() {
             // calculate percentage
-            console.log(event)
-            var scrollableElement = event.target;
-            var scrollHeight = scrollableElement.scrollHeight;
-            var scrollTop = scrollableElement.scrollTop;
+            var windowHeight = window.innerHeight;
+            var scrollTop = window.scrollY;
 
-            var scrollTopPercentage = Math.round((scrollTop / scrollHeight) * 100);
-            var scrollBottomPercentage = Math.round(((scrollTop + scrollableHeight) / scrollHeight) * 100);
-            console.log("Creating record with %0.2f", scrollTopPercentage)
+            var scrollTopPercentage = Math.round((scrollTop / scrollableHeight) * 100);
+            var scrollBottomPercentage = Math.round(((scrollTop + windowHeight) / scrollableHeight) * 100);
+            // console.log("Creating record with %0.2f, %0.2f", scrollTopPercentage, scrollBottomPercentage)
             // Create the kinesis record
             var record = {
                 Data: JSON.stringify({
@@ -57,11 +55,11 @@ AWS.config.credentials.get(function(err) {
         if (!recordData.length) {
             return;
         }
-        console.log("Pushing data to kinesis")
+        // console.log("Pushing data to kinesis")
         // upload data to kinesis
         kinesis.putRecords({
             Records: recordData,
-            StreamName: 'blog_stats'
+            StreamName: 'SSWA-unsupervisedpandas'
         }, function(err, data) {
             if (err) {
                 console.error(err);
