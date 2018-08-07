@@ -36,6 +36,10 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
+head_scripts:
+  - https://sdk.amazonaws.com/js/aws-sdk-2.283.1.min.js
+  - /assets/js/kinesis.js
+
 # SEO Related
 google_site_verification :
 bing_site_verification   :
@@ -193,7 +197,7 @@ whitelist:
 github: [metadata]
 
 jekyll-crosspost_to_medium:
-  enabled: true
+  enabled: false
   cache: .jekyll-crosspost_to_medium
   status: draft
   license: all-rights-reserved
