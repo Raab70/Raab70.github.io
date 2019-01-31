@@ -56,19 +56,7 @@
 <td colspan="100%">
 <ul>
 <li markdown="1">
-Recommendation algorithms product lead: Recommendation algorithm development, deployment and production monitoring on Kubernetes and GCP
-</li>
-<li markdown="1">
-Build flexible hybrid recommendation serving API operating at scale for CBSi sites
-</li>
-<li markdown="1">
-Build content-content comparison recommendation pipeline backed by redis for performance, updates recommendations on thousands of content items in minutes
-</li>
-<li markdown="1">
-evangelize cloud-native, microservice architectures as well as software engineering best practices around VCS, testing and CI/CD
-</li>
-<li markdown="1">
-Recommendations product lead for multiple brands including CNET, CBS News, CBS Sports and CBS All Access
+Recommendations product lead: Recommendation algorithm development, deployment and production monitoring on Kubernetes and GCP for multiple brands including CNET, CBS News, CBS Sports and CBS All Access
 </li>
 <li markdown="1">
 Created scalable deep learning based content-to-content recommendations platform utilizing a distributed celery queue to rapidly ingest and recommend content
@@ -78,9 +66,6 @@ Designed serverless ALS collaborative filtering recommendations platform using G
 </li>
 <li markdown="1">
 Created high availability and scalable generic recommendation selection and serving API run on Kubernetes
-</li>
-<li markdown="1">
-Created recommendation performance monitoring system
 </li>
 <li markdown="1">
 Lead policy implementations surrounding monitoring, alerting, CI/CD, testing, Git, Jira workflow and Kanban migration
