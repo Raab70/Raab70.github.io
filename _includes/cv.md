@@ -4,8 +4,16 @@
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 <tr>
+  <td class='col-md-3'>Apr 2019</td>
+  <td>I will be speaking at Google Next 2019 in San Francisco, California</td>
+</tr>
+<tr>
   <td class='col-md-3'>Aug 2018</td>
-  <td>I will be presenting "Serverless Streaming Web Analytics with AWS Kinesis and Lambda" at the Nashville Analytics Summit. </td>
+  <td>I will be presenting "Serverless Streaming Web Analytics with AWS Kinesis and Lambda" at the Nashville Analytics Summit and Nashville AWS users group meetup</td>
+</tr>
+<tr>
+  <td class='col-md-3'>Jul 2018</td>
+  <td>I was promoted to Senior Machine Learning Engineer in the Applied Machine Learning Group within CBS Interactive.</td>
 </tr>
 <tr>
   <td class='col-md-3'>Mar 2018</td>
@@ -48,7 +56,34 @@
 <td colspan="100%">
 <ul>
 <li markdown="1">
-Recommendation algorithm development and deployment to Kubernetes and GCP
+Recommendation algorithms product lead: Recommendation algorithm development, deployment and production monitoring on Kubernetes and GCP
+</li>
+<li markdown="1">
+Build flexible hybrid recommendation serving API operating at scale for CBSi sites
+</li>
+<li markdown="1">
+Build content-content comparison recommendation pipeline backed by redis for performance, updates recommendations on thousands of content items in minutes
+</li>
+<li markdown="1">
+evangelize cloud-native, microservice architectures as well as software engineering best practices around VCS, testing and CI/CD
+</li>
+<li markdown="1">
+Recommendations product lead for multiple brands including CNET, CBS News, CBS Sports and CBS All Access
+</li>
+<li markdown="1">
+Created scalable deep learning based content-to-content recommendations platform utilizing a distributed celery queue to rapidly ingest and recommend content
+</li>
+<li markdown="1">
+Designed serverless ALS collaborative filtering recommendations platform using Google Cloud Dataproc
+</li>
+<li markdown="1">
+Created high availability and scalable generic recommendation selection and serving API run on Kubernetes
+</li>
+<li markdown="1">
+Created recommendation performance monitoring system
+</li>
+<li markdown="1">
+Lead policy implementations surrounding monitoring, alerting, CI/CD, testing, Git, Jira workflow and Kanban migration
 </li>
 </ul>
 </td>
@@ -73,9 +108,6 @@ Created machine learning spam detection algorithm using Naive Bayes TF-IDF class
 Created a serverless sessionization pipeline using AWS Lambda and AWS Elasticache (redis) to meet business needs of reporting session-level traffic metrics
 </li>
 <li markdown="1">
-Wrote chatbot to interface with analytics giving publishers real-time query insights into their performance metrics
-</li>
-<li markdown="1">
 Created custom serverless ETL pipeline of production data into BigQuery Data Warehouse for analysis.
 </li>
 </ul>
@@ -89,10 +121,7 @@ Created custom serverless ETL pipeline of production data into BigQuery Data War
 <td colspan="100%">
 <ul>
 <li markdown="1">
-Development of novel fully automated optic nerve segmentation, measurement algorithms in MATLAB
-</li>
-<li markdown="1">
-Deployment of algorithm using open source Python cluster manager (DAX) to process >11,000 clinical and research image volumes across self-maintained compute grid and university supercomputing resources
+Development and deployment of a novel fully automated optic nerve segmentation algorithm using open source Python tools to process >11,000 clinical and research image volumes across self-maintained compute grid and university supercomputing resources
 </li>
 </ul>
 </td>
@@ -170,13 +199,19 @@ Python, Bash, terraform, SQL
 <tr>
   <td class='col-md-2'>Frameworks</td>
   <td markdown="1">
-Flask, NumPy, Pandas, PySpark, matplotlib, scikit-learn, TensorFlow
+Django, NumPy, Pandas, matplotlib, scikit-learn, Celery, Flask, TensorFlow, PySpark,
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>Technologies</td>
   <td markdown="1">
 Kubernetes, Containerization, AWS, Google Cloud, microservice architecture
+  </td>
+</tr>
+<tr>
+  <td class='col-md-2'>ML Topics</td>
+  <td markdown="1">
+NLP, image segmentation, classification, collaborative filtering
   </td>
 </tr>
 </table>
