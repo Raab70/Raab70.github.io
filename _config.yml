@@ -36,9 +36,10 @@ staticman:
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
-head_scripts:
-  - https://sdk.amazonaws.com/js/aws-sdk-2.283.1.min.js
-  - /assets/js/kinesis.js
+# Uncomment to enable kinesis analytics
+# head_scripts:
+#   - https://sdk.amazonaws.com/js/aws-sdk-2.283.1.min.js
+#   - /assets/js/kinesis.js
 
 # SEO Related
 google_site_verification :
