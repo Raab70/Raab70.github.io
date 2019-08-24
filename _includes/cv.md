@@ -5,7 +5,7 @@
 <table class="table table-hover">
 <tr>
   <td class='col-md-3'>Apr 2019</td>
-  <td>I will be speaking at Google Next 2019 in San Francisco, California</td>
+  <td>I presented "A Glimpse into CBS Interactive's AI/ML Group" at Google Next 2019 in San Francisco, California <a href='https://youtu.be/hX71H78UYAc'>Available on YouTube</a></td>
 </tr>
 <tr>
   <td class='col-md-3'>Aug 2018</td>
@@ -49,14 +49,36 @@
 ## <i class="fa fa-chevron-right"></i> Work Experience
 <table class="table table-hover">
 <tr>
-  <td class='col-md-3'>Jul 2018 - Present</td>
+  <td class='col-md-3'>Apr 2019 - Present</td>
+  <td><strong>CBS Interactive - Applied ML Group</strong>, Lead Machine Learning Engineer</td>
+</tr>
+<tr>
+<td colspan="100%">
+<ul>
+<li markdown="1">
+Lead a team of two machine learning engineers working on recommendations and video processing
+</li>
+<li markdown="1">
+Spearhead new ML product opportunities including HLS live-stream processing and deep personalization of CBS All Access utilizing Django Rest Framework to rapidly iterate on self-documenting PoCs.
+</li>
+<li markdown="1">
+Work with brands to define recommendation products and integrations
+</li>
+<li markdown="1">
+Promote ops best practices including helm chart authoring, owning of prometheus/grafana monitoring infrastructure and management of 6 production Kubernetes clusters running dozens of microservices.
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+  <td class='col-md-3'>Jul 2018 - Mar 2019</td>
   <td><strong>CBS Interactive - Applied ML Group</strong>, Senior Machine Learning Engineer</td>
 </tr>
 <tr>
 <td colspan="100%">
 <ul>
 <li markdown="1">
-Recommendations product lead: Recommendation algorithm development, deployment and production monitoring on Kubernetes and GCP for multiple brands including CNET, CBS News, CBS Sports and CBS All Access
+Search and recommendations product lead: algorithm development, deployment and monitoring for multiple brands including CNET, TV Guide, Metacritic, CBS Sports and CBS All Access
 </li>
 <li markdown="1">
 Created scalable deep learning based content-to-content recommendations platform utilizing a distributed celery queue to rapidly ingest and recommend content
@@ -81,10 +103,13 @@ Lead policy implementations surrounding monitoring, alerting, CI/CD, testing, Gi
 <td colspan="100%">
 <ul>
 <li markdown="1">
-Created serverless personalized recommendation engine using PySpark to get recommendations for >2 million users for a few dollars
+Seamlessly moved analytics from custom PHP+MySQL application to AWS Kinesis streaming while maintaining business reporting
 </li>
 <li markdown="1">
-Seamlessly moved analytics from custom PHP+MySQL application to AWS Kinesis streaming while maintaining business reporting
+Worked on multiple AWS Lambda backend services to power real-time updates to the site based on streaming analytics
+</li>
+<li markdown="1">
+Created serverless personalized recommendation engine using PySpark to get recommendations for >2 million users for a few dollars
 </li>
 <li markdown="1">
 Created machine learning spam detection algorithm using Naive Bayes TF-IDF classifier, deployed to production
@@ -93,79 +118,7 @@ Created machine learning spam detection algorithm using Naive Bayes TF-IDF class
 Created a serverless sessionization pipeline using AWS Lambda and AWS Elasticache (redis) to meet business needs of reporting session-level traffic metrics
 </li>
 <li markdown="1">
-Created custom serverless ETL pipeline of production data into BigQuery Data Warehouse for analysis.
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-  <td class='col-md-3'>Aug 2014 - Mar 2017</td>
-  <td><strong>Vanderbilt University Department of Electrical Engineering and Computer Science</strong>, Graduate Research Assistant</td>
-</tr>
-<tr>
-<td colspan="100%">
-<ul>
-<li markdown="1">
-Development and deployment of a novel fully automated optic nerve segmentation algorithm using open source Python tools to process >11,000 clinical and research image volumes across self-maintained compute grid and university supercomputing resources
-</li>
-</ul>
-</td>
-</tr>
-</table>
-
-
-## <i class="fa fa-chevron-right"></i> Projects
-<table class="table table-hover">
-<tr>
-    <td class='col-md-3'><strong>Personal Blog and Website</strong></td>
-  <td><a href='https://unsupervisedpandas.com'>https://unsupervisedpandas.com</a></td>
-</tr>
-<tr>
-<td colspan="100%">
-<ul>
-<li markdown="1">
-Hosted on GitHub Pages. Uses **Markdown** for posts and **Jekyll** for static HTML generation.
-</li>
-<li markdown="1">
-Uses AWS Route53 for custom DNS resolution as well as Cloudflare CDN
-</li>
-<li markdown="1">
-Includes posts on data science and data engineering top tags include scikit-learn, AWS, Python, Apex, Docker, Lambda, Pandas and Data Engineering.
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-    <td class='col-md-3'><strong>GitHub Portfolio</strong></td>
-  <td><a href='http://github.com/Raab70'>http://github.com/Raab70</a></td>
-</tr>
-<tr>
-<td colspan="100%">
-<ul>
-<li markdown="1">
-Hosts code samples, original source code, and patches for open source projects.
-</li>
-<li markdown="1">
-Open source contributor to multiple projects including matplotlib
-</li>
-</ul>
-</td>
-</tr>
-<tr>
-    <td class='col-md-3'><strong>NSS Partnership</strong></td>
-  <td><a href='http://nashvillesoftwareschool.com/programs/data-science'>http://nashvillesoftwareschool.com/programs/data-science</a></td>
-</tr>
-<tr>
-<td colspan="100%">
-<ul>
-<li markdown="1">
-Designed project for NSS Data Science track
-</li>
-<li markdown="1">
-Provided data and AWS cloud setup for students
-</li>
-<li markdown="1">
-Instructed students on working with big data in the cloud using PySpark on AWS EMR.
+Created custom serverless ETL pipeline of production data from application tables into BigQuery for analysis
 </li>
 </ul>
 </td>
@@ -184,13 +137,13 @@ Python, Bash, terraform, SQL
 <tr>
   <td class='col-md-2'>Frameworks</td>
   <td markdown="1">
-Django, NumPy, Pandas, matplotlib, scikit-learn, Celery, Flask, TensorFlow, PySpark,
+Django, NumPy, Pandas, matplotlib, scikit-learn, Celery, Flask, TensorFlow, PySpark
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>Technologies</td>
   <td markdown="1">
-Kubernetes, Containerization, AWS, Google Cloud, microservice architecture
+Kubernetes, Containerization, Google Cloud, microservice architecture, redis, prometheus, grafana, rabbitmq
   </td>
 </tr>
 <tr>
@@ -229,69 +182,6 @@ NLP, image segmentation, classification, collaborative filtering
       Rochester Institute of Technology
     </td>
   </tr>
-</table>
-
-
-## <i class="fa fa-chevron-right"></i> Selected Publications <a href="https://github.com/Raab70/resume/blob/master/publications/selected.bib"><i class="fa fa-code-fork" aria-hidden="true"></i></a>
-
-<a href="https://scholar.google.com/citations?user=bqtkH04AAAAJ" class="btn btn-primary" style="padding: 0.3em;">
-  <i class="ai ai-google-scholar"></i> Google Scholar
-</a>
-
-<table class="table table-hover">
-
-<tr>
-<td class="col-md-3"><img src="/assets/images/harrigan2017thesis.png" height="150" width="150"/></td>
-<td>
-    <strong>Optic Nerve Characterization using Magnetic Resonance Imaging: The Search for Biomarkers</strong><br>
-    <strong>R. Harrigan</strong><br>
-    Vanderbilt University ETD 2017<br>
-    
-    [1]<br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><img src="/assets/images/harrigan2017msjetc.png" height="150" width="150"/></td>
-<td>
-    <strong>Quantitative characterization of optic nerve atrophy in patients with multiple sclerosis</strong><br>
-    <strong>R. Harrigan</strong>, A. Smith, B. Lyttle, B. Box, B. Landman, F. Bagnato, S. Pawate, and S. Smith<br>
-    MSJ-ETC 2017<br>
-    
-    [2]<br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><img src="/assets/images/harrigan2017improved.png" height="150" width="150"/></td>
-<td>
-    <strong>Improved automatic optic nerve radius estimation from high resolution MRI</strong><br>
-    <strong>R. Harrigan</strong>, A. Smith, L. Mawn, S. Smith, and B. Landman<br>
-    SPIE MI 2017<br>
-    
-    [3]<br>
-    
-</td>
-</tr>
-
-
-<tr>
-<td class="col-md-3"><img src="/assets/images/harrigan2016disambiguating.png" height="150" width="150"/></td>
-<td>
-    <strong>Disambiguating the optic nerve from the surrounding cerebrospinal fluid: Application to MS-related atrophy</strong><br>
-    <strong>R. Harrigan</strong>, A. Plassard, F. Bryan, G. Caires, L. Mawn, L. Dethrage, S. Pawate, R. Galloway, S. Smith, and B. Landman<br>
-    MRM 2016<br>
-    
-    [4]<br>
-    
-</td>
-</tr>
-
-
 </table>
 
 
@@ -335,6 +225,56 @@ NLP, image segmentation, classification, collaborative filtering
 </table>
 
 
+## <i class="fa fa-chevron-right"></i> Speaking Engagements
+<table class="table table-hover">
+<tr>
+  <td class='col-md-3'>Apr 2019</td>
+  <td>
+    A Glimpse into CBS Interactive's AI/ML Group
+  </td>
+  <td>
+    Google Next '19
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>Aug 2018</td>
+  <td>
+    Serverless Streaming Web Analytics with AWS Kinesis and Lambda
+  </td>
+  <td>
+    Nashville Analytics Summit
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>Aug 2018</td>
+  <td>
+    Serverless Streaming Web Analytics with AWS Kinesis and Lambda
+  </td>
+  <td>
+    Nashville AWS Meetup
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>Mar 2018</td>
+  <td>
+    Building a Serverless Recommendation Engine
+  </td>
+  <td>
+    Brentwood AI Meetup
+  </td>
+</tr>
+<tr>
+  <td class='col-md-3'>Apr 2017</td>
+  <td>
+    On-demand analytics for publishers using a splunk powered chatbot
+  </td>
+  <td>
+    Nashville Splunk User Group
+  </td>
+</tr>
+</table>
+
+
 ## <i class="fa fa-chevron-right"></i> Teaching Experience
 <table class="table table-hover">
 <tr>
@@ -369,9 +309,9 @@ NLP, image segmentation, classification, collaborative filtering
 
 <tr>
 <td>
-    <strong>Robust Multicontrast MRI Spleen Segmentation for Splenomegaly Using Multi-Atlas Segmentation</strong><br>
-    Y. Huo, J. Liu, Z. Xu, <strong>R. Harrigan</strong>, A. Assad, R. Abramson, and B. Landman<br>
-    IEEE TBE 2018<br>
+    <strong>Synthetic Atlases Improve Segmentation Consistency between T1-Weighted Imaging Sequences</strong><br>
+    A. Plassard, S. Rane, P. D'Haese, S. Pallavaram, D. Claassen, B. Dawant, R. Harrigan, and B. Landman<br>
+    Magnetic Resonance Imaging under review<br>
     
     [J1]<br>
     
@@ -381,9 +321,9 @@ NLP, image segmentation, classification, collaborative filtering
 
 <tr>
 <td>
-    <strong>Quantitative characterization of optic nerve atrophy in patients with multiple sclerosis</strong><br>
-    <strong>R. Harrigan</strong>, A. Smith, B. Lyttle, B. Box, B. Landman, F. Bagnato, S. Pawate, and S. Smith<br>
-    MSJ-ETC 2017<br>
+    <strong>Assessment of Orbital Computed Tomography (CT) Imaging Biomarkers in Patients with Thyroid Eye Disease</strong><br>
+    S. Chaganti, K. Mundy, M. DeLisi, K. Nelson, R. Harrigan, R. Galloway, B. Landman, and L. Mawn<br>
+    Journal of Digital Imaging 2019<br>
     
     [J2]<br>
     
@@ -393,9 +333,9 @@ NLP, image segmentation, classification, collaborative filtering
 
 <tr>
 <td>
-    <strong>Estimated Incidence of Ophthalmic Conditions Associated with Optic Nerve Disease in Middle Tennessee</strong><br>
-    S. Chaganti, K. Nelson, <strong>R. Harrigan</strong>, K. Nabar, N. Nandakumar, T. Goecks, S. Smith, B. Landman, and L. Mawn<br>
-     2017<br>
+    <strong>Imaging biomarkers in thyroid eye disease and their clinical associations</strong><br>
+    S. Chaganti, K. Nelson, K. Mundy, R. Harrigan, R. Galloway, L. Mawn, and B. Landman<br>
+    Journal of Medical Imaging 2018<br>
     
     [J3]<br>
     
@@ -405,9 +345,9 @@ NLP, image segmentation, classification, collaborative filtering
 
 <tr>
 <td>
-    <strong>Disambiguating the optic nerve from the surrounding cerebrospinal fluid: Application to MS-related atrophy</strong><br>
-    <strong>R. Harrigan</strong>, A. Plassard, F. Bryan, G. Caires, L. Mawn, L. Dethrage, S. Pawate, R. Galloway, S. Smith, and B. Landman<br>
-    ISMRM 2016<br>
+    <strong>Robust Multicontrast MRI Spleen Segmentation for Splenomegaly Using Multi-Atlas Segmentation</strong><br>
+    Y. Huo, J. Liu, Z. Xu, R. Harrigan, A. Assad, R. Abramson, and B. Landman<br>
+    IEEE TBE 2018<br>
     
     [J4]<br>
     
@@ -417,9 +357,9 @@ NLP, image segmentation, classification, collaborative filtering
 
 <tr>
 <td>
-    <strong>Automatic Measurement of Optic Nerve Atrophy in Multiple Sclerosis Patients with and without Optic Neuritis in MRI (P3. 013)</strong><br>
-    <strong>R. Harrigan</strong>, B. Landman, L. Mawn, S. Pawate, and S. Smith<br>
-    AAN 2016<br>
+    <strong>Quantitative characterization of optic nerve atrophy in patients with multiple sclerosis</strong><br>
+    R. Harrigan, A. Smith, B. Lyttle, B. Box, B. Landman, F. Bagnato, S. Pawate, and S. Smith<br>
+    MSJ-ETC 2017<br>
     
     [J5]<br>
     
@@ -429,9 +369,9 @@ NLP, image segmentation, classification, collaborative filtering
 
 <tr>
 <td>
-    <strong>Vanderbilt University Institute of Imaging Science Center for Computational Imaging XNAT: A multimodal data archive and processing environment</strong><br>
-    <strong>R. Harrigan</strong>, B. Yvernault, B. Boyd, S. Damon, K. Gibney, B. Conrad, N. Phillips, B. Rogers, Y. Gao, and B. Landman<br>
-    Neuroimage 2016<br>
+    <strong>Estimated Incidence of Ophthalmic Conditions Associated with Optic Nerve Disease in Middle Tennessee</strong><br>
+    S. Chaganti, K. Nelson, R. Harrigan, K. Nabar, N. Nandakumar, T. Goecks, S. Smith, B. Landman, and L. Mawn<br>
+    arXiv 2017<br>
     
     [J6]<br>
     
@@ -441,11 +381,47 @@ NLP, image segmentation, classification, collaborative filtering
 
 <tr>
 <td>
-    <strong>Robust optic nerve segmentation on clinically acquired computed tomography</strong><br>
-    <strong>R. Harrigan</strong>, S. Panda, A. Asman, K. Nelson, S. Chaganti, M. DeLisi, B. Yvernault, S. Smith, R. Galloway, and L. Mawn<br>
-    SPIE MI 2014<br>
+    <strong>Disambiguating the optic nerve from the surrounding cerebrospinal fluid: Application to MS-related atrophy</strong><br>
+    R. Harrigan, A. Plassard, F. Bryan, G. Caires, L. Mawn, L. Dethrage, S. Pawate, R. Galloway, S. Smith, and B. Landman<br>
+    ISMRM 2016<br>
     
     [J7]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td>
+    <strong>Automatic Measurement of Optic Nerve Atrophy in Multiple Sclerosis Patients with and without Optic Neuritis in MRI (P3. 013)</strong><br>
+    R. Harrigan, B. Landman, L. Mawn, S. Pawate, and S. Smith<br>
+    AAN 2016<br>
+    
+    [J8]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td>
+    <strong>Vanderbilt University Institute of Imaging Science Center for Computational Imaging XNAT: A multimodal data archive and processing environment</strong><br>
+    R. Harrigan, B. Yvernault, B. Boyd, S. Damon, K. Gibney, B. Conrad, N. Phillips, B. Rogers, Y. Gao, and B. Landman<br>
+    Neuroimage 2016<br>
+    
+    [J9]<br>
+    
+</td>
+</tr>
+
+
+<tr>
+<td>
+    <strong>Robust optic nerve segmentation on clinically acquired computed tomography</strong><br>
+    R. Harrigan, S. Panda, A. Asman, K. Nelson, S. Chaganti, M. DeLisi, B. Yvernault, S. Smith, R. Galloway, and L. Mawn<br>
+    SPIE MI 2014<br>
+    
+    [J10]<br>
     
 </td>
 </tr>
@@ -460,7 +436,7 @@ NLP, image segmentation, classification, collaborative filtering
 <tr>
 <td>
     <strong>Improved automatic optic nerve radius estimation from high resolution MRI</strong><br>
-    <strong>R. Harrigan</strong>, A. Smith, L. Mawn, S. Smith, and B. Landman<br>
+    R. Harrigan, A. Smith, L. Mawn, S. Smith, and B. Landman<br>
     Orlando, Florida 2017<br>
     
     [C1]<br>
@@ -472,7 +448,7 @@ NLP, image segmentation, classification, collaborative filtering
 <tr>
 <td>
     <strong>Multi-atlas segmentation enables robust multi-contrast MRI spleen segmentation for splenomegaly</strong><br>
-    Y. Huo, J. Liu, Z. Xu, <strong>R. Harrigan</strong>, A. Assad, R. Abramson, and B. Landman<br>
+    Y. Huo, J. Liu, Z. Xu, R. Harrigan, A. Assad, R. Abramson, and B. Landman<br>
     Orlando, Florida 2017<br>
     
     [C2]<br>
@@ -484,7 +460,7 @@ NLP, image segmentation, classification, collaborative filtering
 <tr>
 <td>
     <strong>Effects of b-value and number of gradient directions on diffusion MRI measures obtained with Q-ball imaging</strong><br>
-    K. Schilling, V. Nath, J. Blaber, <strong>R. Harrigan</strong>, Z. Ding, A. Anderson, and B. Landman<br>
+    K. Schilling, V. Nath, J. Blaber, R. Harrigan, Z. Ding, A. Anderson, and B. Landman<br>
     Orlando, Florida 2017<br>
     
     [C3]<br>
@@ -496,7 +472,7 @@ NLP, image segmentation, classification, collaborative filtering
 <tr>
 <td>
     <strong>Short term reproducibility of a high contrast 3-D isotropic optic nerve imaging sequence in healthy controls</strong><br>
-    <strong>R. Harrigan</strong>, A. Smith, L. Mawn, S. Smith, and B. Landman<br>
+    R. Harrigan, A. Smith, L. Mawn, S. Smith, and B. Landman<br>
     San Diego, California 2016<br>
     
     [C4]<br>
@@ -508,7 +484,7 @@ NLP, image segmentation, classification, collaborative filtering
 <tr>
 <td>
     <strong>Structural functional associations of the orbit in thyroid eye disease: Kalman filters to track extraocular rectal muscles</strong><br>
-    S. Chaganti, K. Nelson, K. Mundy, Y. Luo, <strong>R. Harrigan</strong>, S. Damon, D. Fabbri, L. Mawn, and B. Landman<br>
+    S. Chaganti, K. Nelson, K. Mundy, Y. Luo, R. Harrigan, S. Damon, D. Fabbri, L. Mawn, and B. Landman<br>
     San Diego, California 2016<br>
     
     [C5]<br>
@@ -520,7 +496,7 @@ NLP, image segmentation, classification, collaborative filtering
 <tr>
 <td>
     <strong>On the fallacy of quantitative segmentation for T1-weighted MRI</strong><br>
-    A. Plassard, <strong>R. Harrigan</strong>, A. Newton, S. Rane, S. Pallavaram, P. D'Haese, B. Dawant, D. Claassen, and B. Landman<br>
+    A. Plassard, R. Harrigan, A. Newton, S. Rane, S. Pallavaram, P. D'Haese, B. Dawant, D. Claassen, and B. Landman<br>
     San Diego, California 2016<br>
     
     [C6]<br>
@@ -532,7 +508,7 @@ NLP, image segmentation, classification, collaborative filtering
 <tr>
 <td>
     <strong>Constructing a statistical atlas of the radii of the optic nerve and cerebrospinal fluid sheath in young healthy adults</strong><br>
-    <strong>R. Harrigan</strong>, A. Plassard, L. Mawn, R. Galloway, S. Smith, and B. Landman<br>
+    R. Harrigan, A. Plassard, L. Mawn, R. Galloway, S. Smith, and B. Landman<br>
     Orlando, Florida 2015<br>
     
     [C7]<br>
@@ -544,7 +520,7 @@ NLP, image segmentation, classification, collaborative filtering
 <tr>
 <td>
     <strong>TRADITIONAL MBA ADMISSIONS CRITERIA AND GRADUATE SCHOOL SUCCESS: HOW ARE GMAT SCORES, UNDERGRADUATE GPA, AND GRADUATE BUSINESS SCHOOL PERFORMANCE CORRELATED?</strong><br>
-    K. Hammond, M. Cook-Wallace, E. Moser, and <strong>R. Harrigan</strong><br>
+    K. Hammond, M. Cook-Wallace, E. Moser, and R. Harrigan<br>
     AELJ 2015<br>
     
     [C8]<br>
@@ -562,7 +538,7 @@ NLP, image segmentation, classification, collaborative filtering
 <tr>
 <td>
     <strong>Automatic Measurement of Optic Nerve Atrophy in Multiple Sclerosis Patients with and without Optic Neuritis in MRI</strong><br>
-    <strong>R. Harrigan</strong>, S. Smith, and B. Landman<br>
+    R. Harrigan, S. Smith, and B. Landman<br>
     Vancouver, BC, Canada 2016<br>
     
     [S1]<br>
@@ -574,7 +550,7 @@ NLP, image segmentation, classification, collaborative filtering
 <tr>
 <td>
     <strong>Imaging in the Optic Nerve: Insights into Optic Nerve Pathology</strong><br>
-    <strong>R. Harrigan</strong>, S. Chaganti, S. Smith, and B. Landman<br>
+    R. Harrigan, S. Chaganti, S. Smith, and B. Landman<br>
     Nashville, Tennessee 2015<br>
     
     [S2]<br>
@@ -586,7 +562,7 @@ NLP, image segmentation, classification, collaborative filtering
 <tr>
 <td>
     <strong>Optic Nerve Mapping in Multiple Sclerosis Patients with and without Optic Neuritis</strong><br>
-    <strong>R. Harrigan</strong>, S. Smith, and B. Landman<br>
+    R. Harrigan, S. Smith, and B. Landman<br>
     Nashville, Tennessee 2015<br>
     
     [S3]<br>
@@ -598,7 +574,7 @@ NLP, image segmentation, classification, collaborative filtering
 <tr>
 <td>
     <strong>Mapping of the Optic Nerve in MS Patients with and without Optic Neuritis</strong><br>
-    <strong>R. Harrigan</strong>, S. Smith, and B. Landman<br>
+    R. Harrigan, S. Smith, and B. Landman<br>
     Toronto, ON, Canada 2015<br>
     
     [S4]<br>
