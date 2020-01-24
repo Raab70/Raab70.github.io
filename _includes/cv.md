@@ -4,12 +4,24 @@
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 <tr>
+  <td class='col-md-3'>Mar 2020</td>
+  <td>I will be presenting "<a href='https://2020.pytennessee.org/talks/deploying-machine-learning-models-with-flask-and-docker'>Deploying Machine Learning Models with Flask and Docker</a>" at PyTennessee 2020</td>
+</tr>
+<tr>
+  <td class='col-md-3'>Oct 2019</td>
+  <td>I attended ODSC West 2019 in San Francisco, California</td>
+</tr>
+<tr>
+  <td class='col-md-3'>Apr 2019</td>
+  <td>I was promoted to Lead Machine Learning Engineer in the Applied Machine Learning Group within CBS Interactive</td>
+</tr>
+<tr>
   <td class='col-md-3'>Apr 2019</td>
   <td>I presented "A Glimpse into CBS Interactive's AI/ML Group" at Google Next 2019 in San Francisco, California <a href='https://youtu.be/hX71H78UYAc'>Available on YouTube</a></td>
 </tr>
 <tr>
   <td class='col-md-3'>Aug 2018</td>
-  <td>I will be presenting "Serverless Streaming Web Analytics with AWS Kinesis and Lambda" at the Nashville Analytics Summit and Nashville AWS users group meetup</td>
+  <td>I presented "Serverless Streaming Web Analytics with AWS Kinesis and Lambda" at the Nashville Analytics Summit and Nashville AWS users group meetup</td>
 </tr>
 <tr>
   <td class='col-md-3'>Jul 2018</td>
@@ -56,7 +68,7 @@
 <td colspan="100%">
 <ul>
 <li markdown="1">
-Lead a team of two machine learning engineers working on recommendations and video processing
+Lead a team of machine learning engineers working on recommendations and video processing
 </li>
 <li markdown="1">
 Spearhead new ML product opportunities including HLS live-stream processing and deep personalization of CBS All Access utilizing Django Rest Framework to rapidly iterate on self-documenting PoCs.
@@ -84,10 +96,10 @@ Search and recommendations product lead: algorithm development, deployment and m
 Created scalable deep learning based content-to-content recommendations platform utilizing a distributed celery queue to rapidly ingest and recommend content
 </li>
 <li markdown="1">
-Designed serverless ALS collaborative filtering recommendations platform using Google Cloud Dataproc
+Designed serverless ALS collaborative filtering recommendations platform using Google Cloud Dataproc which went on to be the most clicked-on carousel on the CBS All Access homepage
 </li>
 <li markdown="1">
-Created high availability and scalable generic recommendation selection and serving API run on Kubernetes
+Created highly available and scalable generic recommendation selection and serving API run on Kubernetes serving 1 million recommendations per day
 </li>
 <li markdown="1">
 Lead policy implementations surrounding monitoring, alerting, CI/CD, testing, Git, Jira workflow and Kanban migration
