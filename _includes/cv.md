@@ -4,6 +4,10 @@
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
 <tr>
+  <td class='col-md-3'>Jan 2021</td>
+  <td>I was promoted to Principal Machine Learning Engineer in the Applied Machine Learning Group within ViacomCBS Streaming</td>
+</tr>
+<tr>
   <td class='col-md-3'>Mar 2020</td>
   <td>I will be presenting "<a href='https://2020.pytennessee.org/talks/deploying-machine-learning-models-with-flask-and-docker'>Deploying Machine Learning Models with Flask and Docker</a>" at PyTennessee 2020</td>
 </tr>
@@ -61,17 +65,36 @@
 ## <i class="fa fa-chevron-right"></i> Work Experience
 <table class="table table-hover">
 <tr>
-  <td class='col-md-3'>Apr 2019 - Present</td>
+  <td class='col-md-3'>Jan 2021 - Present</td>
+  <td><strong>ViacomCBS Streaming - Applied ML Group</strong>, Principal Machine Learning Engineer</td>
+</tr>
+<tr>
+<td colspan="100%">
+<ul>
+<li markdown="1">
+Lead a team of four MLEs to develop and deploy production-quality machine learning models
+</li>
+<li markdown="1">
+Architect integration of personalization features on Paramount+ to deliver a fully-personalized experience to drive content discovery through a large rebrand and catalog expansion
+</li>
+<li markdown="1">
+Apply deep learning models to video assets for animated thumbnail extraction which drives >25% increase in engagement
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+  <td class='col-md-3'>Apr 2019 - Dec 2020</td>
   <td><strong>CBS Interactive - Applied ML Group</strong>, Lead Machine Learning Engineer</td>
 </tr>
 <tr>
 <td colspan="100%">
 <ul>
 <li markdown="1">
-Lead a team of machine learning engineers working on recommendations and video processing
+Lead a team of two MLEs working on recommendations and video processing
 </li>
 <li markdown="1">
-Spearhead new ML product opportunities including HLS live-stream processing and deep personalization of CBS All Access utilizing Django Rest Framework to rapidly iterate on self-documenting PoCs.
+Spearhead new ML product opportunities including HLS live-stream processing and personalization of CBS All Access.
 </li>
 <li markdown="1">
 Work with brands to define recommendation products and integrations
@@ -115,22 +138,16 @@ Lead policy implementations surrounding monitoring, alerting, CI/CD, testing, Gi
 <td colspan="100%">
 <ul>
 <li markdown="1">
-Seamlessly moved analytics from custom PHP+MySQL application to AWS Kinesis streaming while maintaining business reporting
+Migrated analytics from custom PHP+MySQL application to AWS Kinesis streaming while maintaining business reporting
 </li>
 <li markdown="1">
 Worked on multiple AWS Lambda backend services to power real-time updates to the site based on streaming analytics
 </li>
 <li markdown="1">
-Created serverless personalized recommendation engine using PySpark to get recommendations for >2 million users for a few dollars
-</li>
-<li markdown="1">
 Created machine learning spam detection algorithm using Naive Bayes TF-IDF classifier, deployed to production
 </li>
 <li markdown="1">
-Created a serverless sessionization pipeline using AWS Lambda and AWS Elasticache (redis) to meet business needs of reporting session-level traffic metrics
-</li>
-<li markdown="1">
-Created custom serverless ETL pipeline of production data from application tables into BigQuery for analysis
+Created multiple serverless implementations on AWS including sessionization, ETL and personalized recommendations
 </li>
 </ul>
 </td>
@@ -143,19 +160,19 @@ Created custom serverless ETL pipeline of production data from application table
 <tr>
   <td class='col-md-2'>Languages</td>
   <td markdown="1">
-Python, Bash, terraform, SQL
+Python, SQL, Bash, terraform
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>Frameworks</td>
   <td markdown="1">
-Django, NumPy, Pandas, matplotlib, scikit-learn, Celery, Flask, TensorFlow, PySpark
+Django, NumPy, Pandas, matplotlib, scikit-learn, Flask, TensorFlow, PySpark
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>Technologies</td>
   <td markdown="1">
-Kubernetes, Containerization, Google Cloud, microservice architecture, redis, prometheus, grafana, rabbitmq
+Kubernetes, Containerization, Google Cloud, microservice architecture, redis, prometheus, grafana
   </td>
 </tr>
 <tr>
