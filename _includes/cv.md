@@ -1,8 +1,12 @@
- I am a passionate data scientist who believes in data-driven decision making and empowering executives with actionable facts. I focus on bridging the gap between data science and data engineering, utilizing modern design patterns for cloud-based and containerized workflows to maximize data science impact. I currently work for CBS Interactive in the Applied Machine Learning Group <br>
+ # I am a passionate machine learning engineering leader empowering # high performing teams delivering real-world results with AI/ML. # I instill engineering excellence into my team for high velocity # delivery of solutions with measurable impact on business goals. # I have expertise in leadership, motivation, recommender systems, # software engineering best practices, and kubernetes. # I currently work for Paramount Streaming in the Applied Machine Learning Group # improving personalization across services including impacts on Paramount+ and Pluto TV. <br>
 
 
 ## <i class="fa fa-chevron-right"></i> News
 <table class="table table-hover">
+<tr>
+  <td class='col-md-3'>Aug 2022</td>
+  <td>I was promoted to Director of Machine Learning Engineering and Personalization in the Applied Machine Learning Group within Paramount Global Streaming</td>
+</tr>
 <tr>
   <td class='col-md-3'>Jan 2021</td>
   <td>I was promoted to Principal Machine Learning Engineer in the Applied Machine Learning Group within ViacomCBS Streaming</td>
@@ -49,7 +53,7 @@
 </tr>
 <tr>
   <td class='col-md-3'>Apr 2017</td>
-  <td>I began working at 247Sports.com at CBS Interactive</td>
+  <td>I began work as a Data Engineer at 247Sports.com within CBS Interactive</td>
 </tr>
 <tr>
   <td class='col-md-3'>Mar 2017</td>
@@ -65,8 +69,21 @@
 ## <i class="fa fa-chevron-right"></i> Work Experience
 <table class="table table-hover">
 <tr>
-  <td class='col-md-3'>Jan 2021 - Present</td>
-  <td><strong>ViacomCBS Streaming - Applied ML Group</strong>, Principal Machine Learning Engineer</td>
+  <td class='col-md-3'>Aug 2022 - Present</td>
+  <td><strong>Paramount Global Streaming - Applied ML Group</strong>, Director, Machine Learning Engineering and Personalization</td>
+</tr>
+<tr>
+<td colspan="100%">
+<ul>
+<li markdown="1">
+Lead a team of six MLEs to develop and deploy production-quality machine learning models
+</li>
+</ul>
+</td>
+</tr>
+<tr>
+  <td class='col-md-3'>Jan 2021 - Jul 2022</td>
+  <td><strong>Paramount Global Streaming - Applied ML Group</strong>, Principal Machine Learning Engineer</td>
 </tr>
 <tr>
 <td colspan="100%">
@@ -78,7 +95,10 @@ Lead a team of four MLEs to develop and deploy production-quality machine learni
 Architect integration of personalization features on Paramount+ to deliver a fully-personalized experience to drive content discovery through a large rebrand and catalog expansion
 </li>
 <li markdown="1">
-Apply deep learning models to video assets for animated thumbnail extraction which drives >25% increase in engagement
+Implemented homepage personalization which increased viewing hours from the homepage 14% in 2021
+</li>
+<li markdown="1">
+Personalized the order of items within carousels on the homepage increasing clicks by 19%
 </li>
 </ul>
 </td>
@@ -172,7 +192,7 @@ Django, NumPy, Pandas, matplotlib, scikit-learn, Flask, TensorFlow, PySpark
 <tr>
   <td class='col-md-2'>Technologies</td>
   <td markdown="1">
-Kubernetes, Containerization, Google Cloud, microservice architecture, redis, prometheus, grafana
+Kubernetes, Google Cloud, microservices, redis, prometheus, grafana
   </td>
 </tr>
 <tr>
