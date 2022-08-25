@@ -1,4 +1,4 @@
- # I am a passionate machine learning engineering leader empowering # high performing teams delivering real-world results with AI/ML. # I instill engineering excellence into my team for high velocity # delivery of solutions with measurable impact on business goals. # I have expertise in leadership, motivation, recommender systems, # software engineering best practices, and kubernetes. # I currently work for Paramount Streaming in the Applied Machine Learning Group # improving personalization across services including impacts on Paramount+ and Pluto TV. <br>
+ I am a passionate machine learning engineering leader empowering high performing teams delivering real-world results with AI/ML. I instill engineering excellence into my team for high velocity delivery of solutions with measurable impact on business goals. I have expertise in leadership, motivation, recommender systems, software engineering best practices, and kubernetes. I currently work for Paramount Streaming in the Applied Machine Learning Group improving personalization across services including impacts on Paramount+ and Pluto TV. <br>
 
 
 ## <i class="fa fa-chevron-right"></i> News
