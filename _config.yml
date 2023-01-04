@@ -50,7 +50,7 @@ naver-site-verification  :
 
 # Social Sharing
 twitter:
-  username               : RobHarrigan89
+  username               : RobHarriganML
 facebook:
   username               :
   app_id                 :
@@ -75,7 +75,7 @@ author:
   avatar           : /assets/images/HARRIGANrob_crop.jpg
   bio              : "Director, ML Engineering & Personalization"
   location         : "Nashville, TN"
-  email            :
+  email            : "rob@unsupervisedpandas.com"
   uri              :
   bitbucket        :
   codepen          :

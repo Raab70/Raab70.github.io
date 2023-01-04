@@ -1,4 +1,4 @@
- I am a passionate machine learning engineering leader empowering high performing teams to deliver measurable results with AI/ML. I instill engineering excellence into my team for high velocity delivery of solutions aligned with business goals. I have expertise in leadership, motivation, recommender systems, software engineering best practices, and kubernetes. I currently work for Paramount Streaming in the Applied Machine Learning Group improving personalization across services including impacts on Paramount+ and Pluto TV. <br>
+ I am a passionate machine learning engineering leader empowering high performing teams to deliver measurable results with AI/ML. I instill engineering excellence into my team for high velocity delivery of solutions aligned with business goals. I have expertise in leadership, motivation, recommender systems, software engineering best practices, and kubernetes. I currently work for Paramount Streaming in the Applied Machine Learning Group improving personalization across services including Paramount+ and Pluto TV. <br>
 
 
 ## <i class="fa fa-chevron-right"></i> News
@@ -76,7 +76,19 @@
 <td colspan="100%">
 <ul>
 <li markdown="1">
-Lead a team of six MLEs to develop and deploy production-quality machine learning models
+Lead a team of seven MLEs to develop and deploy production-quality machine learning models
+</li>
+<li markdown="1">
+Interface with multiple engineering teams across streaming services to spearhead new personalization opportunities
+</li>
+<li markdown="1">
+Coordinate personalization priorities with global product stakeholders balancing product goals and engineering resources
+</li>
+<li markdown="1">
+Improve search page engagement by 50% through personalization of landing page
+</li>
+<li markdown="1">
+Expand personalization to dozens of countries worldwide with unique consumption patterns and content catalogs
 </li>
 </ul>
 </td>
@@ -98,7 +110,7 @@ Architect integration of personalization features on Paramount+ to deliver a ful
 Implemented homepage personalization which increased viewing hours from the homepage 14% in 2021
 </li>
 <li markdown="1">
-Personalized the order of items within carousels on the homepage increasing clicks by 19%
+Personalized the order of items within carousels on the homepage increasing clicks by 20%
 </li>
 </ul>
 </td>
@@ -115,12 +127,6 @@ Lead a team of two MLEs working on recommendations and video processing
 </li>
 <li markdown="1">
 Spearhead new ML product opportunities including HLS live-stream processing and personalization of CBS All Access.
-</li>
-<li markdown="1">
-Work with brands to define recommendation products and integrations
-</li>
-<li markdown="1">
-Promote ops best practices including helm chart authoring, owning of prometheus/grafana monitoring infrastructure and management of 6 production Kubernetes clusters running dozens of microservices.
 </li>
 </ul>
 </td>
@@ -144,9 +150,6 @@ Designed serverless ALS collaborative filtering recommendations platform using G
 <li markdown="1">
 Created highly available and scalable generic recommendation selection and serving API run on Kubernetes serving 1 million recommendations per day
 </li>
-<li markdown="1">
-Lead policy implementations surrounding monitoring, alerting, CI/CD, testing, Git, Jira workflow and Kanban migration
-</li>
 </ul>
 </td>
 </tr>
@@ -158,16 +161,10 @@ Lead policy implementations surrounding monitoring, alerting, CI/CD, testing, Gi
 <td colspan="100%">
 <ul>
 <li markdown="1">
-Migrated analytics from custom PHP+MySQL application to AWS Kinesis streaming while maintaining business reporting
+Created machine learning spam detection algorithm using Naive Bayes TF-IDF classifier
 </li>
 <li markdown="1">
-Worked on multiple AWS Lambda backend services to power real-time updates to the site based on streaming analytics
-</li>
-<li markdown="1">
-Created machine learning spam detection algorithm using Naive Bayes TF-IDF classifier, deployed to production
-</li>
-<li markdown="1">
-Created multiple serverless implementations on AWS including sessionization, ETL and personalized recommendations
+Migrated analytics from custom PHP+MySQL application to AWS Kinesis streaming while maintaining reporting
 </li>
 </ul>
 </td>
@@ -192,13 +189,13 @@ Django, NumPy, Pandas, matplotlib, scikit-learn, Flask, TensorFlow, PySpark
 <tr>
   <td class='col-md-2'>Technologies</td>
   <td markdown="1">
-Kubernetes, Google Cloud, microservices, redis, prometheus, grafana
+Kubernetes, Google Cloud, microservices, Redis, BigQuery
   </td>
 </tr>
 <tr>
   <td class='col-md-2'>ML Topics</td>
   <td markdown="1">
-NLP, image segmentation, classification, collaborative filtering
+Recommendations, image segmentation, classification, collaborative filtering
   </td>
 </tr>
 </table>
